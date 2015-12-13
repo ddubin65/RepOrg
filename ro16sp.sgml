@@ -668,6 +668,12 @@ date.</p>
        <due><weblink url="&asgt;&hom6;">Due 5:00pm, CDT</weblink></due>
        </req>
       </required>
+    <chronpart id="week14"> <!-- week 14 -->
+      <cptitle>Topic TBA</cptitle>
+      <dates>&week14;</dates>
+      <topics></topics>
+      <required>
+      </required>
     <chronpart id="week15"> <!-- week 15 -->
       <cptitle>Subject languages</cptitle>
       <dates>&week15;</dates>
