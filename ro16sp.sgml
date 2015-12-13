@@ -492,8 +492,7 @@ limited to) the following:</p>
 	<itemize>
 	  <item>Colloquial XML conforming to a DTD or XML schema</item>
 	  <item>RDF serialized in XML, or N3/Turtle.</item>
-	  <item>Strings conforming to a regular or context-free grammar
-   (as described in the Rosen reading)</item>
+	  <item>Strings conforming to a regular or context-free grammar</item>
 	</itemize>
       <p>The aims of this assignment are to gain practice in the
 selection and use of precise descriptive notation.</p>
@@ -542,8 +541,8 @@ date.</p>
       <dates>&week2;</dates>
       <topics>Types, tokens, properties and relations.</topics>
       <inclass>
-	<readings>Jubien 1997, <weblink url="#jubien97:ch2">ch. 
-2</weblink>&ndash;<weblink url="#jubien97:ch3">3</weblink></readings>
+	<readings>Jubien 1997, <weblink url="#jubien_numbers_1997">ch. 
+2</weblink>&ndash;<weblink url="#jubien_platonism_1997">3</weblink></readings>
       <required>
        <req>
        <type>Resource domain/genre description</type>
@@ -555,8 +554,8 @@ date.</p>
       <dates>&week3;</dates>
       <topics></topics>
       <inclass>
-	<readings><weblink url="#smith12">Smith, 2012;</weblink> 
-<weblink url="#ferraris11">Ferraris, 2011</weblink></readings>
+	<readings><weblink url="#smith_how_2012">Smith, 2012;</weblink> 
+<weblink url="#ferraris_social_2011">Ferraris, 2011</weblink></readings>
     </chronpart>
 <newpage>
     <chronpart id="week4"> <!-- week 4 --> 
@@ -564,8 +563,8 @@ date.</p>
       <dates>&week4;</dates>
       <topics>DCMI model, RDF</topics>
       <inclass>
-	<readings><weblink url="#DCMIAM">Powell et al., 2004;</weblink> 
-<weblink url="#RDF">Tauberer, 2008</weblink></readings>
+	<readings><weblink url="#DCMIAMpowell_dcmi_2004">Powell et al., 2004;</weblink> 
+<weblink url="#tauberer_what_2008">Tauberer, 2008</weblink></readings>
       <required>
        <req>
        <type>Ten resources for description</type>
@@ -581,8 +580,8 @@ date.</p>
       <topics>Works, texts, editions, items</topics>
       <inclass>
 	<readings><weblink url="#svenonius00:ch3">Svenonius, ch 3;</weblink> 
-<weblink url="#FRBR">IFLA, 1998;</weblink> 
-<weblink url="#smiraglia01">Smiraglia, 2001 ch. 1&ndash;2</weblink></readings>
+<weblink url="#international_federation_of_library_associations_functional_1998">IFLA, 1998;</weblink> 
+<weblink url="#smiraglia_nature_2001">Smiraglia, 2001 ch. 1&ndash;2</weblink></readings>
       <required>
        <req>
        <type>Five resource properties</type>
@@ -594,9 +593,9 @@ date.</p>
       <dates>&week7;</dates>
       <topics>URIs, handles, the identity relation</topics>
       <inclass>
-	<readings><weblink url="#jubien97:ch4">Jubien ch. 4,</weblink> 
-<weblink url="#kahn06">Kahn, 2006;</weblink> 
-<weblink url="#thompson10">Thompson, 2010</weblink></readings>
+	<readings><weblink url="#jubien_identity_1997">Jubien ch. 4,</weblink> 
+<weblink url="#kahn_framework_2006">Kahn, 2006;</weblink> 
+<weblink url="#thompson_whats_2010">Thompson, 2010</weblink></readings>
     </chronpart>
     <chronpart id="week8"> <!-- week 8 -->
       <cptitle>Data representation and expression</cptitle>
