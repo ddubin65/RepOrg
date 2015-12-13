@@ -563,7 +563,7 @@ date.</p>
       <dates>&week4;</dates>
       <topics>DCMI model, RDF</topics>
       <inclass>
-	<readings><weblink url="#DCMIAMpowell_dcmi_2004">Powell et al., 2004;</weblink> 
+	<readings><weblink url="#powell_dcmi_2004">Powell et al., 2004;</weblink> 
 <weblink url="#tauberer_what_2008">Tauberer, 2008</weblink></readings>
       <required>
        <req>
@@ -579,7 +579,7 @@ date.</p>
       <dates>&week6;</dates> 
       <topics>Works, texts, editions, items</topics>
       <inclass>
-	<readings><weblink url="#svenonius00:ch3">Svenonius, ch 3;</weblink> 
+	<readings><weblink url="#svenonius_bibliographic_2000">Svenonius, ch 3;</weblink> 
 <weblink url="#international_federation_of_library_associations_functional_1998">IFLA, 1998;</weblink> 
 <weblink url="#smiraglia_nature_2001">Smiraglia, 2001 ch. 1&ndash;2</weblink></readings>
       <required>
@@ -602,8 +602,8 @@ date.</p>
       <dates>&week8;</dates>
       <topics>Data, metadata, data sets</topics>
       <inclass>
-	<readings><weblink url="#wickett12:asist">Wickett, et al., 2012;</weblink>
-<weblink url="#thomer12">Thomer, et al., 2012</weblink></readings>
+	<readings><weblink url="#wickett_identifying_2012">Wickett, et al., 2012;</weblink>
+<weblink url="#thomer_completeness_2012">Thomer, et al., 2012</weblink></readings>
       <required>
 	<req>
 	  <type>Project Proposal</type>
@@ -615,8 +615,8 @@ date.</p>
       <dates>&week9;</dates>
       <topics>Descriptive and normative agendas</topics>
      <inclass>
-	<readings><weblink url="#spring10">Spring, 2010;</weblink> 
-<weblink url="#birnbaum96">Birnbaum 1996</weblink></readings>
+	<readings><weblink url="#spring_what_2010">Spring, 2010;</weblink> 
+<weblink url="#birnbaum_standardizing_1996">Birnbaum 1996</weblink></readings>
       <required>
        <req>
        <type>Preliminary resource description in RDF</type>
@@ -633,7 +633,7 @@ date.</p>
       <dates>&week11;</dates>
       <topics>Sense, reference, interpretation</topics>
       <inclass>
-	<readings><weblink url="#bach89">Bach, 1989 chapters 1&ndash;2</weblink></readings>
+	<readings><weblink url="#bach_informal_1989">Bach, 1989 chapters 1&ndash;2</weblink></readings>
       <required>
 	<req>
 	  <type>Nominate ICES Questions</type>
@@ -654,7 +654,7 @@ date.</p>
       <dates>&week12;</dates>
       <topics>Validation, XML, RDF</topics>      
       <inclass>
-	<readings><weblink url="#kelly06">Kelly, 2006;</weblink> 
+	<readings><weblink url="#kelly_making_2006">Kelly, 2006;</weblink> 
 <weblink url="#RDFPrimer">RDF Primer</weblink></readings>
     </chronpart>
     <chronpart id="week13"> <!-- week 13 -->
@@ -678,7 +678,7 @@ date.</p>
       <dates>&week15;</dates>
       <topics>concepts, syndetic structure</topics>
       <inclass>
-	<readings><weblink url="#iyer95:5">Iyer 1995, ch.5;</weblink> 
+	<readings><weblink url="#iyer_structural_1995">Iyer 1995, ch.5;</weblink> 
 <weblink url="#SKOSPrimer">SKOS Primer</weblink></readings>
     <chronpart id="week16"> <!-- week 16 -->
       <cptitle>Wrap-up and Project Presentations</cptitle>
