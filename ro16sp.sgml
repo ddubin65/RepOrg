@@ -572,7 +572,7 @@ date.</p>
        <due><weblink url="&asgt;&hom2;">Due 5:00pm, CST</weblink></due>
        </req>
       </required>
-    <chronpart id="week5"> <!-- week 5 --> <!-- Instructor away -->       
+    <chronpart id="week5"> <!-- week 5 -->       
     <cptitle>Topic TBA</cptitle>
       <dates>&week5;</dates>
     <chronpart id="week6"> <!-- week 6 -->
@@ -612,10 +612,9 @@ date.</p>
 	</req>
       </required>
     <chronpart id="week9"> <!-- week 9 -->
-      <cptitle>Standards and Specifications</cptitle>
+      <cptitle>Standards and Reference Models</cptitle>
       <dates>&week9;</dates>
-      <topics>de jure vs. de facto standards, reference models and
-              profiles.</topics>
+      <topics>Descriptive and normative agendas</topics>
      <inclass>
 	<readings><weblink url="#spring10">Spring, 2010;</weblink> 
 <weblink url="#birnbaum96">Birnbaum 1996</weblink></readings>
@@ -626,9 +625,13 @@ date.</p>
        </req>
       </required>
     </chronpart>
-    <chronpart id="week10"> <!-- week 10 -->
-      <cptitle>Artificial Languages 1: Semantics</cptitle>
+	<chronpart id="week10"> <!-- week 10 -->
+      <cptitle>No class meeting: Spring Break</cptitle>
       <dates>&week10;</dates>
+      <topics></topics>
+    <chronpart id="week11"> <!-- week 11 -->
+      <cptitle>Artificial Languages</cptitle>
+      <dates>&week11;</dates>
       <topics>Sense, reference, interpretation</topics>
       <inclass>
 	<readings><weblink url="#bach89">Bach, 1989 chapters 1&ndash;2</weblink></readings>
@@ -637,26 +640,17 @@ date.</p>
 	  <type>Nominate ICES Questions</type>
 	  <due><weblink url="&asgt;&nomices;">Due 5:00pm, CDT</weblink></due>
 	</req>
-<![ %ignore; [	<req>
+       <req>
+       <type>Property codomains and coded symbols</type>
+       <due><weblink url="&asgt;&hom5;">Due 5:00pm, CDT</weblink></due>
+       </req>
+	<![ %ignore; [	<req>
 	  <type>Mid-semester evaluation</type>
 	  <due><weblink url="&midsem;">Due 5:00pm, CDT.</weblink></due>
 	</req>]]>
       </required>
     </chronpart>
-    <chronpart id="week11"> <!-- week 11 -->
-      <cptitle>Artificial Languages 2: Syntax</cptitle>
-      <dates>&week11;</dates>
-      <topics>Grammars, well-formedness</topics>
-      <inclass>
-	<readings><weblink url="#rosen88:10.1">Rosen, 1988 section 10.1</weblink></readings>
-      <required>
-       <req>
-       <type>Property codomains and coded symbols</type>
-       <due><weblink url="&asgt;&hom5;">Due 5:00pm, CDT</weblink></due>
-       </req>
-      </required>
-    </chronpart>
-    <chronpart id="week12"> <!-- week 12 -->
+   <chronpart id="week12"> <!-- week 12 -->
       <cptitle>Schemas and Syntax</cptitle>
       <dates>&week12;</dates>
       <topics>Validation, XML, RDF</topics>      
@@ -664,7 +658,7 @@ date.</p>
 	<readings><weblink url="#kelly06">Kelly, 2006;</weblink> 
 <weblink url="#RDFPrimer">RDF Primer</weblink></readings>
     </chronpart>
-    <chronpart id="week13"> <!-- week 13 --> <!-- Instructor Away -->
+    <chronpart id="week13"> <!-- week 13 -->
       <cptitle>Topic TBA</cptitle>
       <dates>&week13;</dates>
       <topics></topics>
@@ -674,10 +668,6 @@ date.</p>
        <due><weblink url="&asgt;&hom6;">Due 5:00pm, CDT</weblink></due>
        </req>
       </required>
-    <chronpart id="week14"> <!-- week 14 -->
-      <cptitle>No class meeting: Thanksgiving holiday</cptitle>
-      <dates>&week14;</dates>
-      <topics></topics>
     <chronpart id="week15"> <!-- week 15 -->
       <cptitle>Subject languages</cptitle>
       <dates>&week15;</dates>
