@@ -202,7 +202,7 @@ renditions.</p>
     <sectl>Statement of Inclusion</sectl>
     <p>The following expression is adopted from the Chancellor's
 Commitment Statement of November 2012:
-<![ %HTML; [(<weblink url="http://www.inclusiveillinois.illinois.edu/chancellordivstmtswf.html#ValueStmt">web link</weblink>)]]></p>
+<![ %HTML; [(<weblink url="http://www.inclusiveillinois.illinois.edu/chancellordivstmtswf.html#ValueStmt">web link</weblink>)]]></p> <!-- broken link -->
     <p>As the state's premier public university, the University of Illinois
 at Urbana-Champaign's core mission is to serve the interests of the
 diverse people of the state of Illinois and beyond. The institution
@@ -671,8 +671,6 @@ date.</p>
       <cptitle>Topic TBA</cptitle>
       <dates>&week14;</dates>
       <topics></topics>
-      <required>
-      </required>
     <chronpart id="week15"> <!-- week 15 -->
       <cptitle>Subject languages</cptitle>
       <dates>&week15;</dates>
