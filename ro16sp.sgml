@@ -1,0 +1,707 @@
+<!doctype syllabus system "syllabus.dtd" [
+<!ENTITY robib SYSTEM "ro16sp" NDATA BibTeX>
+<!ENTITY % LaTeX "IGNORE">
+<!ENTITY % HTML "IGNORE">
+<!ENTITY % ignore "IGNORE">
+<![ %LaTeX; [
+<!entity % texentities system "tex_entities.ent">
+%texentities;
+]]>
+<![ %HTML; [
+<!entity % htmlentities system "html_entities.ent">
+%htmlentities;
+]]>
+<!ENTITY week1 "January 19">
+<!ENTITY week2 "January 26">
+<!ENTITY week3 "February 2">
+<!ENTITY as1due "February 2">  <!-- week 3 -->
+<!ENTITY week4 "February 9">
+<!ENTITY week5 "February 16">
+<!ENTITY as2due "February 9">  <!-- week 4 -->
+<!ENTITY week6 "February 23">
+<!ENTITY week7 "March 1">
+<!ENTITY as3due "February 23"> <!-- week 6 -->
+<!ENTITY week8 "March 8">
+<!ENTITY propdue "March 8">    <!-- week 8 -->
+<!ENTITY week9 "March 15">
+<!ENTITY as4due "March 15">    <!-- week 9 -->
+<!ENTITY week10 "March 22">    <!-- Spring Break -->
+<!ENTITY week11 "March 29"> 
+<!ENTITY week12 "April 5">
+<!ENTITY as5due "March 29">    <!-- week 11 -->
+<!ENTITY week13 "April 12">
+<!ENTITY week14 "April 19">
+<!ENTITY as6due "April 12">    <!-- week 13 -->
+<!ENTITY week15 "April 26">
+<!ENTITY week16 "May 3">       <!-- Last regular class day -->
+<!ENTITY as7due "May 3">       <!-- week 16 -->
+<!ENTITY ProjectDue "May 10">  <!-- week 17 -->
+<!ENTITY week17 "May 10">      <!-- Exam week -->
+<!ENTITY websyl "http://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/syllabus/ro14fa.html"> 
+<!ENTITY sgmlsyl "http://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/syllabus/ro14fa.sgml"> 
+<!ENTITY asgt "https://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/asgt/">
+<!ENTITY quiz "https://courses.lis.illinois.edu/mod/quiz/view.php?id=">
+<!ENTITY hom1 "asgt1">
+<!ENTITY hom2 "asgt2">
+<!ENTITY hom3 "asgt3">
+<!ENTITY hom4 "asgt4">
+<!ENTITY hom5 "asgt5">
+<!ENTITY hom6 "asgt6">
+<!ENTITY hom7 "asgt7">
+<!ENTITY prop "propsoal">
+<!ENTITY midsem "https://illinois.edu/sb/sec/9303956">
+<!ENTITY icaltodo "https://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/syllabus/ro2013asgts.ics">
+<!ENTITY icalevents "https://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/syllabus/ro2013deadlines.ics">
+<!ENTITY nomices "nomices">
+<!ENTITY proj "project">
+]>
+<syllabus>
+  <head>
+    <course>
+      <cname>Representing and Organizing Information Resources</cname> 
+      <cnumber>LIS590</cnumber>
+      <dept>Graduate School of Library and Information Science</dept>
+      <term>Spring 2016</term>
+    </course>
+    <sections>
+      <section>
+         <secid>Section RO
+         <when>Tuesday 9:00&ndash;11:50am
+         <where>LIS Building, Room 109
+      </section>
+   </sections>
+    <prof>
+      <pname>David Dubin
+      <poffice>LIS 330
+      <phours>Tuesdays 1:00&ndash;4:00pm, and by appointment (face to face is your instructor's preferred contact method).
+      <pphone>217&ndash;244&ndash;3275 (217&ndash;BIG&ndash;EARL) skype:ddubin65
+      <pemail>ddubin
+      <pwww><weblink url="http://people.lis.illinois.edu/~ddubin/">http://people.lis.illinois.edu/&tilde;ddubin/</weblink>
+   </prof>
+  </head>
+  <preamble>
+    <p>This document is Copyright &copy; 2016 by David Dubin and
+the Trustees of the University of Illinois. In addition to this
+syllabus, this course is governed by the rules and guidelines set
+forth in the <weblink url="http://www.illinois.edu/admin_manual/code/">Code of Policies and
+Regulations Applying to All Students</weblink> and <em type="title">A
+Handbook for Graduate Students and Advisers</em> which graduate
+students receive upon admission to the program. Students should also
+consult, and take to heart, the <em type="title">Professional
+Guidelines and Codes of Ethics for Library and Information Science
+Professionals</em> available from the GSLIS main office. <p>This
+syllabus is provided to UIUC students as part of the materials for a
+particular class. However, it may be copied, redistributed, and
+modified under the terms of the <weblink
+url="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons
+Attribution-ShareAlike license</weblink> (Version 2.0). The text of
+that license is available on the Worldwide Web at creativecommons.org.
+Resources that are linked to or referenced from within this syllabus
+(e.g., readings, outlines, discussions) are <em>not</em> covered by
+the license, unless specifically labeled as such.</p>
+  </preamble>
+  <sylsec id="texts">
+    <sectl>Required Texts</sectl>
+    <p>Reading assignments are listed below on the course calendar and
+bibliography. There is no textbook to purchase for this class. </p>
+  </sylsec>
+  <sylsec id="library">
+    <sectl>Library Resources</sectl>
+    <p>Library resources and information are available at the
+following online addresses:</p>
+<![ %HTML; [<itemize>
+<item><weblink url="http://www.library.illinois.edu/">University of Illinois Library</weblink></item>
+<item><weblink url="http://www.library.illinois.edu/lsx/">Library and Information Science Virtual Library</weblink></item>
+<item><weblink url="http://search.grainger.uiuc.edu/linker/">Journal and Article Locator</weblink></item>
+<item><weblink url="mailto:lislib@library.illinois.edu">LIS Librarian (email: lislib@library.illinois.edu, phone: 217-333-3804)</weblink></item>
+</itemize>]]><![ %LaTeX; [<itemize>
+<item>University of Illinois Library: http://www.library.illinois.edu/</item>
+<item>Library and Information Science Virtual Library: http://www.library.illinois.edu/lsx/</item>
+<item>Journal and Article Locator: http://search.grainger.uiuc.edu/linker/</item>
+<item>LIS Librarian (email: lislib@library.illinois.edu, phone: 217-333-3804)</item>
+</itemize>]]>
+  </sylsec>
+  <newpage>
+  <sylsec id="blurb">
+    <sectl>Course Description</sectl>
+    <p>Emphasizes concepts and methods of organizing information
+resources across different settings and systems, or within one
+particular setting. The course extends the basic conceptual foundation
+provided in LIS 501 by providing further reading, analysis,
+discussion, and practice related to one or several major traditions of
+information organization in different environments (e.g., libraries,
+museums, archives, Internet, and within a single
+organization).</p>
+    <sylsubsec id="prerequisites">
+      <subtl>Pre- and Co-requisites</subtl>
+      <p>Students are strongly urged to complete LIS501 before
+enrolling in this course.</p>
+    </sylsubsec>
+  </sylsec>
+  <sylsec id="welcome">
+    <sectl>Course overview and welcome</sectl> <p>I am
+very happy to welcome you to LIS590-RO, and to express my strong
+desire to make this a useful and productive course for you.  Many of
+you are enrolling soon after completing the required core class on
+information organization and access. Despite the generality of my
+course's title and description, you have chosen to join RO rather than
+one of its more specialized IO/KR siblings. Job ads in our professions
+read like laundry lists of specialized skills, even at the best of
+times. Even more so in times of economic stress, I think your choice
+of a principles class shows courage and a recognition of the
+importance of taking the long view of your professional career. I
+congratulate you, and promise that I will work hard to justify your
+faith.</p>
+    <p>Descriptive standards and practices are undergoing reforms,
+both for familiar library resources and other types not traditionally
+associated with our stewardship. We see new cataloging principles
+being proposed, and harsh criticisms leveled against metadata
+standards widely viewed as new and promising only a short time ago.
+Responding, adapting, and even helping to frame these kinds of reforms
+will be a part of your working life for the rest of your career.
+Rather than delving into the particulars of the current debates, this
+course aims to equip you to form your own views in debates current and
+future. This will be accomplished through the construction of a
+conceptual framework into which problems of resource description and
+organization can be situated and understood. Along the way, you will
+work on hands-on exercises that connect these concepts to practical
+problems. But you should view these exercises not as skills to be
+developed, but as vehicles for improving your understanding of
+principles and concepts.</p>
+  </sylsec>
+<sylsec id="objectives">
+    <sectl>Learning Objectives</sectl>
+    <p>Your instructor hopes to learn more about your objectives for
+this course. His own objectives include the following:</p>
+    <itemize>
+      <item>Disentangle levels of abstraction that are commonly
+blurred and confounded in the professional literature and discussion
+of resource organization and description.</item>
+      <item>Build a conceptual framework that will help equip students
+for more specialized IO/KR classes, and prepare them for inevitable
+future changes to descriptive standards and practices.</item>
+      <item>Confront the complexities arising from our colleagues'
+conflicting philosophical commitments, and understand the very
+practical implications these basic world views have on our
+professional lives.</item>
+      <item>Engage in resource description exercises that will help
+make the concepts we read about and discuss more concrete, and provoke
+us to think about them more deeply.</item>
+    </itemize>
+  </sylsec>
+  <sylsec id="syllabus">
+    <sectl>This Syllabus</sectl> 
+    <p>The official syllabus for this course is the SGML version that
+is linked off the class web page. Expressions of the syllabus in other
+formats are derived from the SGML version. The current SGML version
+should be consulted to resolve any inconsistencies among other
+renditions.</p>
+  </sylsec>
+  <newpage>
+  <sylsec id="inclusion">
+    <sectl>Statement of Inclusion</sectl>
+    <p>The following expression is adopted from the Chancellor's
+Commitment Statement of November 2012:
+<![ %HTML; [(<weblink url="http://www.inclusiveillinois.illinois.edu/chancellordivstmtswf.html#ValueStmt">web link</weblink>)]]></p>
+    <p>As the state's premier public university, the University of Illinois
+at Urbana-Champaign's core mission is to serve the interests of the
+diverse people of the state of Illinois and beyond. The institution
+thus values inclusion and a pluralistic learning and research
+environment, one which we respect the varied perspectives and lived
+experiences of a diverse community and global workforce. We support
+diversity of world views, histories, and cultural knowledge across a
+range of social groups including race, ethnicity, gender identity,
+sexual orientation, abilities, economic class, religion, and their
+intersections.</p>
+    <sylsubsec>
+      <subtl>Inclusiveness as a topic in LIS590-RO</subtl>
+      <p>The models and theories we cover in this class frame the way
+we understand resources, our professional roles with respect to their
+stewardship, and the access and preservation problems to which our
+efforts are directed. Under the right circumstances they can help make
+our services more inclusive, as we've seen, for example, with the
+digital encoding of writing systems and attention to web content
+accessibility issues. But knowledge organization systems can also
+marginalize, as reforms of library subject and medical classifications
+ have shown. The assignment and project requirements described below
+provide flexibility for students to relate broader course objectives
+to their own learning goals, interests, and current or prior
+professional experience. Your instructor invites you to consider among
+those options exploring issues such as:</p>
+      <itemize>
+	<item>The needs of underserved communities</item>
+	<item>Preservation of cultural heritage</item>
+	<item>Institutional bigotry in classification systems</item>
+	<item>Wealth and power distribution impacts on standards development</item>
+      </itemize>
+      <p>The readings and discussion topics for our class meetings are
+selected with the aim of encouraging reflection and discussion, but
+those choices are not socially or culturally neutral. Where we may be
+missing opportunities to align the class content and conduct with the
+values expressed in the inclusion statement, students are encouraged
+to call classmate and instructor attention to those issues.</p>
+    </sylsubsec>
+  </sylsec>
+  <sylsec id="disability">
+    <sectl>Disability Statement</sectl>
+    <p>To obtain disability-related academic adjustments and/or auxiliary
+aids, students with disabilities must contact the course instructor
+and the Disability Resources and Educational Services (DRES) as soon
+as possible. To contact DRES you may visit 1207 S. Oak St., Champaign,
+call 217-333-4603 (V/TTY), or e-mail a message to disability@uiuc.edu.</p>
+  </sylsec>
+  <sylsec id="grading">
+    <sectl>Basis for Grading and Evaluation</sectl>
+    <p>The most important standards for success in a class like this
+one are the educational goals that students bring to the class. Your
+instructor hopes that the activities, assignments, and presentations
+planned for this semester will be instrumental in your achieving the
+goals you set for yourself. Each exercise and assignment has been
+selected to provide an experience that will foster your own learning.
+Do not think that grading and evaluative feedback are meant as
+assessments of your success or failure in the class: they are provided
+as an incentive to engage with the material to the best of your
+ability, and as a diagnostic to ensure you're getting the benefits
+that the assignments should provide.
+</p>
+<p>For students enrolled for four units, final grades will be
+calculated as follows:
+    <itemize>
+      <item>Graded homework assignments 40&percnt;</item>
+      <item>Term Project: 30&percnt;</item>
+      <item>Class Participation: 30&percnt;</item>
+    </itemize>
+<!--    <newpage> -->
+    <p>For students enrolled for two units, final grades will be
+calculated as follows:</p>
+    <itemize>
+      <item>Graded homework assignments 55&percnt;</item>
+      <item>Class Participation: 45&percnt;</item>
+    </itemize>
+    <sylsubsec id="feeback">
+      <subtl>Evaluative and constructive feedback</subtl> <p>Students
+      are entitled to both evaluative and constructive feedback on the
+      assignments. Evaluative feedback reports how well a completed
+      assignment satisfied the requirements for a grade.  Constructive
+      feedback provides more detailed criticism of the work, and
+      suggestions for improvement.</p>
+    <sylsubsec id="honesty">
+      <subtl>On Adapting the Work of Others</subtl>
+      <p>Criteria for grading homework assignments include (but are
+not limited to) creativity and the amount of original work
+demonstrated in the assignment. However, students are permitted to use
+and adapt the work of others, provided that the following guidelines
+are followed:
+<itemize>
+<item>Use of other people's material must not infringe the copyright
+of the original author, nor violate the terms of any licensing
+agreement. Know and respect the principles of fair use with respect to
+copyrighted material.
+<item>Students must scrupulously attribute the original source and
+author of whatever material has been adapted for the assignment.
+Summarize the changes or adaptations that have been made. Make  plain
+how much of the assignment represents original work. 
+</itemize>
+    </sylsubsec>
+    <sylsubsec id="submitting">
+      <subtl>Submitting Assignments to the Instructor</subtl> 
+      <p>All assignments must be submitted in machine readable form.
+The instructor will discuss detailed requirements for file naming,
+packaging, and submission for each assignment.</p>
+    </sylsubsec>
+  <sylsubsec id="assignments">
+    <subtl>Graded Assignments</subtl>
+    <p>There will be seven graded homework assignments. Each one requires a
+short essay one to five pages in length, with most of the content in
+expressed in natural language, and some in a formal language or
+standardized notation. The assignments are: </p>
+    <itemize>
+      <item>Resource domain/genre description (due &as1due;)</item>
+      <item>Ten resources for description (due &as2due;)</item>
+      <item>Five resource properties (due &as3due;)</item>
+      <item>Preliminary resource description in RDF (due &as4due;)</item>
+      <item>Property codomains and coded symbols (due &as5due;)</item>
+      <item>Entity identification and property domains (due &as6due;)</item>
+      <item>Updated resource description (due &as7due;)</item>
+    </itemize>
+<![ %ignore; [<p>Two iCalendar files are available for importing the
+assignment deadlines into calendar software or other PIM
+utilities. Two versions are avalable: <weblink url="&icaltodo;">this
+one encodes the deadlines as "to do" items</weblink> and <weblink
+url="&icalevents;">this one encodes them as ordinary
+events.</weblink></p>]]>
+      </sylsubsec>
+    <sylsubsec id="assignment1">
+      <subtl>Assignment 1: resource domain/genre description</subtl>
+      <p>This assignment is due &as1due;. 
+<![ %HTML; [(<weblink url="&asgt;&hom1;">upload link</weblink>)]]>
+</p> 
+<p>In the next
+assignment, you will select ten (cultural or natural) resources of
+your choice for analysis and description. Before doing so, give some
+critical thought to the domain and/or genre from which you will select
+them. Write a 1&ndash;3 page justification, focusing on the
+characteristics of the domain or genre that you believe will make our
+later exercises instructive for you. These characteristics might
+include:</p>
+      <itemize>
+	<item>Your personal familiarity with and interest in the domain/genre.</item>
+	<item>Reasons people other than you have in locating and using
+resources of this kind. Competing or conflicting interests are often a good sign.</item>
+	<item>Problems with or limitations of current approaches to
+describing or classifying these kinds of resource.</item>
+	<item>Complexity of the resource (n.b., familiar resources are
+often more complex than meets the eye).</item>
+      </itemize>
+	<p>Please note that a domain or genre is not a topic. If you
+select President Abraham Lincoln (1809&ndash;1865) as the domain for this
+assignment, then for the next assignment you'll need to identify ten
+different deceased U.S. presidents, each of whom was named Abraham
+Lincoln, and each of whom lived from 1809 to 1865. Examples of more
+promising domains include:</p>
+	<itemize>
+	  <item>Journal articles in zoology</item>
+	  <item>Your grandmother's postcard collection</item>
+	  <item>Eighth century Byzantine coins</item>
+	  <item>Prime numbers</item>
+	  <item>Board games</item>
+	  <item>Ethnographic data</item>
+	  <item>Young adult novels</item>
+	  <item>Mollusc shells</item>
+	</itemize>
+	<p>The aim of this assignment is to help you relate the
+topics in our readings and discussions to concrete examples that you
+can explore in the homework assignments.</p>
+    </sylsubsec>
+    <sylsubsec id="assignment2">
+      <subtl>Assignment 2: ten resources for description</subtl>
+      <p>This assignment is due &as2due;. 
+<![ %HTML; [(<weblink url="&asgt;&hom2;">upload link</weblink>)]]>
+</p> 
+      <p>Select ten cultural or natural resources, all drawn from the
+same domain, type, or genre. In later assignments, you will analyze
+them with respect to their properties, the relations they stand in
+with respect to each other, and their identity conditions. For this
+assignment, write a brief, one paragraph natural language description of each
+one. If your choice of domain/genre in the last assignment was a
+mistake, include a discussion of the new domain or genre. Let your
+choice of the ten be guided by those characteristics you considered in
+assignment 1. In the interests of making your later assignments more
+instructive, choose resources that collectively exhibit diversity,
+highlight complexities, and push against the limitations and problems
+of current descriptive practice.</p>
+	<p>The aim of this assignment is to choose a small number of
+specific resources that can serve as the focus for your thinking about
+and applying the description and organization issues we discuss this
+semester. </p>
+      </sylsubsec>
+      <sylsubsec id="assignment3">
+	<subtl>Assignment 3: Five resource properties</subtl>
+      <p>This assignment is due &as3due;. 
+<![ %HTML; [(<weblink url="&asgt;&hom3;">upload link</weblink>)]]>
+</p> 
+	<p>Choose five properties or relations that will serve as a
+basis for the organization and description of your ten resources. Most
+or all of your resources should have some value on that property (or
+stand in the relation to another resource). But not every resource
+needs to exhibit the property or stand in the relation. Some
+guidelines for choosing properties/relations include:</p>
+	<itemize>
+	  <item>Features that are of interest or concern to the
+communities who have a stake in the resource or its use.</item>
+	  <item>Properties that have <em>discriminatory power</em> for
+your resources (i.e., those which highlight contrasts or divide the
+resources into categories.</item>
+	  <item>Features that offer interesting or instructive
+descriptive problems</item>
+	</itemize>
+	<p>The aims of this assignment are to consider resource
+properties and relations independently of how they are expressed or
+encoded in descriptive records, and to consider the importance of
+properties' discriminatory power and interest to users in a specific
+context.</p>
+      </sylsubsec>
+<!--      <newpage> -->
+      <sylsubsec id="assignment4">
+	<subtl>Assignment 4: Preliminary resource description:
+property values</subtl>
+      <p>This assignment is due &as4due;. 
+<![ %HTML; [(<weblink url="&asgt;&hom4;">upload link</weblink>)]]>
+</p> 
+	<p>Create valid RDF descriptions for your resources in terms
+of the properties that you have identified. For this assignment use
+the turtle serialization for RDF (see the 
+<weblink url="#RDFPrimer">RDF Primer</weblink>), and annotate the 
+descriptions using natural language comments.</p>
+      <p>The aim of this assignment is to create a focus for more thorough
+analysis of your properties in later assignments.</p>
+      </sylsubsec>
+      <sylsubsec id="assignment5">
+	<subtl>Assignment 5: Property Codomains and coded symbols</subtl>
+      <p>This assignment is due &as5due;. 
+<![ %HTML; [(<weblink url="&asgt;&hom5;">upload link</weblink>)]]>
+</p> 
+	<p>For each of the five properties or relations you identified
+in assignment 3, give a precise, natural language account of that
+property's codomain. That is to say, write a short description (in
+careful English) of what kinds of things would serve as values on that
+property or relation for entities in the property domain.</p>
+	<p>Next propose one or more strategies for denoting or
+encoding elements of each codomain, or expressing surrogates for
+those elements.</p>
+	<p>The aim of this assignment is to consider expression or
+surrogation choices independent of any particular descriptive standard
+or artificial language.</p>
+      </sylsubsec>
+	<sylsubsec id="assignment6">
+	<subtl>Assignment 6: Entity Identification and Property
+Domains</subtl> 
+      <p>This assignment is due &as6due;. 
+<![ %HTML; [(<weblink url="&asgt;&hom6;">upload link</weblink>)]]>
+</p> 
+	<p>For each of the five properties or relations you identified
+in assignment 3, give a precise, natural language account of
+that property's domain. That is to say, write a short description (in
+careful English) of what kind of things can have that property.</p> 
+	<p>Next write a brief analysis of how the domains of these
+properties relate to each other, and make an attempt to propose
+identity conditions for each type of thing. </p>
+	<p>The aim of this assignment is to attempt a discrimination
+among levels of analysis for your resources, similar to the proposals
+we've considered for works, texts, and documents.</p>
+	</sylsubsec>
+      <sylsubsec id="assignment7">
+	<subtl>Assignment 7: Description record syntax</subtl>
+      <p>This assignment is due &as7due;. 
+<![ %HTML; [(<weblink url="&asgt;&hom7;">upload link</weblink>)]]>
+</p> 
+	<p>Create an updated, syntactically conforming expression of the
+resource-property-value assignments from assignment 4 into a
+notation of your choice. &ldquo;Syntactically conforming&rdquo; means a
+well-formed expression that is governed by some grammar or
+schema. Choice (or invention) of the particular grammar or schema
+should be documented in a few short paragraphs that include a
+discussion of the choice/design as it relates to the resources,
+their properties, and the audience for the encoded records. If you
+chose an existing syntactic schema or specification, include links or
+directions to its formal definition and documentation. If you invent
+one of your own, include the definitions as a separate attachment.
+</p><newpage>
+	<p>Examples of acceptable notations include (but are not
+limited to) the following:</p>
+	<itemize>
+	  <item>Colloquial XML conforming to a DTD or XML schema</item>
+	  <item>RDF serialized in XML, or N3/Turtle.</item>
+	  <item>Strings conforming to a regular or context-free grammar
+   (as described in the Rosen reading)</item>
+	</itemize>
+      <p>The aims of this assignment are to gain practice in the
+selection and use of precise descriptive notation.</p>
+      </sylsubsec>
+<!--    <newpage> -->
+    <sylsubsec id="participation">
+      <subtl>Attendance and Class Participation</subtl>
+      <p>The class participation grade is based on consistent
+attendance, contribution to in-class and/or online discussions, and
+providing assistance to classmates outside of class. Please alert the
+instructor if a classmate has been of help to you outside of class.
+Class participation also includes a required (but not graded)
+nomination of three ICES questions for the final course evaluation.
+The instructor will provide a link to the ICES question catalog.
+<![ %HTML; [(<weblink url="&asgt;&nomices;">upload link</weblink>) 
+(<weblink url="#ICES">ICES Catalog</weblink>)]]>
+</p>
+    <sylsubsec id="project">
+      <subtl>Term Project</subtl> <p>Students enrolled for four units
+must complete a term project on a topic approved by the course
+instructor. The term project is a work of academic writing,
+approximately ten to twenty pages in length, exploring a problem or
+issue in resource description (e.g., identity, derivation,
+intentionality, etc.). Students are encouraged (not required) to frame
+the project as a case study growing out of the earlier homework
+assignments, but situated with respect to a broader and more general
+review and analysis of the focal problem. Project proposals are due no
+later than &propdue;, but students are encouraged to open a dialogue
+with the instructor and with classmates well in advance of that
+date.</p>
+    </sylsubsec>
+  </sylsec>
+<!--  <newpage> -->
+  <chronlist id="calendar"> 
+    <cltitle>Course Calendar</cltitle>
+    <chronpart id="week1"> <!-- week 1 -->
+      <cptitle>Introduction to the class</cptitle>
+      <dates>&week1;</dates>
+      <topics>Professional identity. Change and reform in technology
+              and practice.</topics>
+      <inclass>
+	<readings>Syllabus</readings>
+    </chronpart>
+    <chronpart id="week2"> <!-- week 2 -->
+      <cptitle>Resources: concrete and ideal</cptitle>
+      <dates>&week2;</dates>
+      <topics>Types, tokens, properties and relations.</topics>
+      <inclass>
+	<readings>Jubien 1997, <weblink url="#jubien97:ch2">ch. 
+2</weblink>&ndash;<weblink url="#jubien97:ch3">3</weblink></readings>
+      <required>
+       <req>
+       <type>Resource domain/genre description</type>
+       <due><weblink url="&asgt;&hom1;">Due 5:00pm, CST</weblink></due>
+       </req>
+      </required>
+    <chronpart id="week3"> <!-- week 3 -->
+      <cptitle>Resources: social objects and social facts</cptitle>
+      <dates>&week3;</dates>
+      <topics></topics>
+      <inclass>
+	<readings><weblink url="#smith12">Smith, 2012;</weblink> 
+<weblink url="#ferraris11">Ferraris, 2011</weblink></readings>
+    </chronpart>
+<newpage>
+    <chronpart id="week4"> <!-- week 4 --> 
+      <cptitle>The nature of description</cptitle>
+      <dates>&week4;</dates>
+      <topics>DCMI model, RDF</topics>
+      <inclass>
+	<readings><weblink url="#DCMIAM">Powell et al., 2004;</weblink> 
+<weblink url="#RDF">Tauberer, 2008</weblink></readings>
+      <required>
+       <req>
+       <type>Ten resources for description</type>
+       <due><weblink url="&asgt;&hom2;">Due 5:00pm, CST</weblink></due>
+       </req>
+      </required>
+    <chronpart id="week5"> <!-- week 5 --> <!-- Instructor away -->       
+    <cptitle>Topic TBA</cptitle>
+      <dates>&week5;</dates>
+    <chronpart id="week6"> <!-- week 6 -->
+      <cptitle>Bibliographic Entities</cptitle>
+      <dates>&week6;</dates> 
+      <topics>Works, texts, editions, items</topics>
+      <inclass>
+	<readings><weblink url="#svenonius00:ch3">Svenonius, ch 3;</weblink> 
+<weblink url="#FRBR">IFLA, 1998;</weblink> 
+<weblink url="#smiraglia01">Smiraglia, 2001 ch. 1&ndash;2</weblink></readings>
+      <required>
+       <req>
+       <type>Five resource properties</type>
+       <due><weblink url="&asgt;&hom3;">Due 5:00pm, CST</weblink></due>
+       </req>
+      </required>
+    <chronpart id="week7"> <!-- week 7 -->
+      <cptitle>Identity and Identifiers</cptitle>
+      <dates>&week7;</dates>
+      <topics>URIs, handles, the identity relation</topics>
+      <inclass>
+	<readings><weblink url="#jubien97:ch4">Jubien ch. 4,</weblink> 
+<weblink url="#kahn06">Kahn, 2006;</weblink> 
+<weblink url="#thompson10">Thompson, 2010</weblink></readings>
+    </chronpart>
+    <chronpart id="week8"> <!-- week 8 -->
+      <cptitle>Data representation and expression</cptitle>
+      <dates>&week8;</dates>
+      <topics>Data, metadata, data sets</topics>
+      <inclass>
+	<readings><weblink url="#wickett12:asist">Wickett, et al., 2012;</weblink>
+<weblink url="#thomer12">Thomer, et al., 2012</weblink></readings>
+      <required>
+	<req>
+	  <type>Project Proposal</type>
+	  <due><weblink url="&asgt;&prop;">Due 5:00pm, CST</weblink></due>
+	</req>
+      </required>
+    <chronpart id="week9"> <!-- week 9 -->
+      <cptitle>Standards and Specifications</cptitle>
+      <dates>&week9;</dates>
+      <topics>de jure vs. de facto standards, reference models and
+              profiles.</topics>
+     <inclass>
+	<readings><weblink url="#spring10">Spring, 2010;</weblink> 
+<weblink url="#birnbaum96">Birnbaum 1996</weblink></readings>
+      <required>
+       <req>
+       <type>Preliminary resource description in RDF</type>
+       <due><weblink url="&asgt;&hom4;">Due 5:00pm, CDT</weblink></due>
+       </req>
+      </required>
+    </chronpart>
+    <chronpart id="week10"> <!-- week 10 -->
+      <cptitle>Artificial Languages 1: Semantics</cptitle>
+      <dates>&week10;</dates>
+      <topics>Sense, reference, interpretation</topics>
+      <inclass>
+	<readings><weblink url="#bach89">Bach, 1989 chapters 1&ndash;2</weblink></readings>
+      <required>
+	<req>
+	  <type>Nominate ICES Questions</type>
+	  <due><weblink url="&asgt;&nomices;">Due 5:00pm, CDT</weblink></due>
+	</req>
+<![ %ignore; [	<req>
+	  <type>Mid-semester evaluation</type>
+	  <due><weblink url="&midsem;">Due 5:00pm, CDT.</weblink></due>
+	</req>]]>
+      </required>
+    </chronpart>
+    <chronpart id="week11"> <!-- week 11 -->
+      <cptitle>Artificial Languages 2: Syntax</cptitle>
+      <dates>&week11;</dates>
+      <topics>Grammars, well-formedness</topics>
+      <inclass>
+	<readings><weblink url="#rosen88:10.1">Rosen, 1988 section 10.1</weblink></readings>
+      <required>
+       <req>
+       <type>Property codomains and coded symbols</type>
+       <due><weblink url="&asgt;&hom5;">Due 5:00pm, CDT</weblink></due>
+       </req>
+      </required>
+    </chronpart>
+    <chronpart id="week12"> <!-- week 12 -->
+      <cptitle>Schemas and Syntax</cptitle>
+      <dates>&week12;</dates>
+      <topics>Validation, XML, RDF</topics>      
+      <inclass>
+	<readings><weblink url="#kelly06">Kelly, 2006;</weblink> 
+<weblink url="#RDFPrimer">RDF Primer</weblink></readings>
+    </chronpart>
+    <chronpart id="week13"> <!-- week 13 --> <!-- Instructor Away -->
+      <cptitle>Topic TBA</cptitle>
+      <dates>&week13;</dates>
+      <topics></topics>
+      <required>
+       <req>
+       <type>Entity identification and property domains</type>
+       <due><weblink url="&asgt;&hom6;">Due 5:00pm, CDT</weblink></due>
+       </req>
+      </required>
+    <chronpart id="week14"> <!-- week 14 -->
+      <cptitle>No class meeting: Thanksgiving holiday</cptitle>
+      <dates>&week14;</dates>
+      <topics></topics>
+    <chronpart id="week15"> <!-- week 15 -->
+      <cptitle>Subject languages</cptitle>
+      <dates>&week15;</dates>
+      <topics>concepts, syndetic structure</topics>
+      <inclass>
+	<readings><weblink url="#iyer95:5">Iyer 1995, ch.5;</weblink> 
+<weblink url="#SKOSPrimer">SKOS Primer</weblink></readings>
+    <chronpart id="week16"> <!-- week 16 -->
+      <cptitle>Wrap-up and Project Presentations</cptitle>
+      <dates>&week16;</dates>
+        <required>
+       <req>
+       <type>Description record syntax</type>
+       <due><weblink url="&asgt;&hom7;">Due 5:00pm, CDT</weblink></due>
+       </req>
+	<req>
+	  <type>Term project</type>
+	  <due><weblink url="&asgt;&proj;">Due &ProjectDue;</weblink> at 5:00 PM, Central Daylight Time</due>
+	  </required>
+    </chronpart>
+ </chronlist>
+<newpage>
+  <bibsec>
+    <bsectl>Reading Assignments</bsectl>
+    <publist title="Readings Assignments" database="robib">
+  </bibsec>
+</syllabus>
