@@ -572,8 +572,15 @@ date.</p>
        </req>
       </required>
     <chronpart id="week5"> <!-- week 5 -->       
-    <cptitle>Topic TBA</cptitle>
+    <cptitle>Concepts and Ideas</cptitle>
       <dates>&week5;</dates>
+      <topics>Puzzles of thought, proposed solutions</topics>
+      <inclass>
+	    <readings>
+		  <weblink url="#sainsbury_puzzles_2012">Sainsbury and Tye, ch. 1;</weblink> 
+		  <weblink url="#sainsbury_roads_2012">Sainsbury and Tye, ch. 2;</weblink> 
+		  <weblink url="#sainsbury_overview_2012">Sainsbury and Tye, ch. 3;</weblink> 
+		</readings>
     <chronpart id="week6"> <!-- week 6 -->
       <cptitle>Bibliographic Entities</cptitle>
       <dates>&week6;</dates> 
@@ -658,9 +665,12 @@ date.</p>
 <weblink url="#RDFPrimer">RDF Primer</weblink></readings>
     </chronpart>
     <chronpart id="week13"> <!-- week 13 -->
-      <cptitle>Topic TBA</cptitle>
+      <cptitle>Subject Languages</cptitle>
       <dates>&week13;</dates>
-      <topics></topics>
+      <topics>concepts, syndetic structure</topics>
+      <inclass>
+	<readings><weblink url="#iyer_structural_1995">Iyer 1995, ch.5;</weblink> 
+<weblink url="#SKOSPrimer">SKOS Primer</weblink></readings>
       <required>
        <req>
        <type>Entity identification and property domains</type>
@@ -672,12 +682,8 @@ date.</p>
       <dates>&week14;</dates>
       <topics></topics>
     <chronpart id="week15"> <!-- week 15 -->
-      <cptitle>Subject languages</cptitle>
+      <cptitle>Topic TBA</cptitle>
       <dates>&week15;</dates>
-      <topics>concepts, syndetic structure</topics>
-      <inclass>
-	<readings><weblink url="#iyer_structural_1995">Iyer 1995, ch.5;</weblink> 
-<weblink url="#SKOSPrimer">SKOS Primer</weblink></readings>
     <chronpart id="week16"> <!-- week 16 -->
       <cptitle>Wrap-up and Project Presentations</cptitle>
       <dates>&week16;</dates>
