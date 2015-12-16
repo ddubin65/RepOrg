@@ -14,7 +14,7 @@
 <!ENTITY week1 "January 19">
 <!ENTITY week2 "January 26">
 <!ENTITY week3 "February 2">
-<!ENTITY as1due "February 2">  <!-- week 3 -->
+<!ENTITY as1due "January 26">  <!-- week 2 -->
 <!ENTITY week4 "February 9">
 <!ENTITY week5 "February 16">
 <!ENTITY as2due "February 9">  <!-- week 4 -->
@@ -39,21 +39,21 @@
 <!ENTITY week17 "May 10">      <!-- Exam week -->
 <!ENTITY websyl "http://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/syllabus/ro14fa.html"> 
 <!ENTITY sgmlsyl "http://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/syllabus/ro14fa.sgml"> 
-<!ENTITY asgt "https://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/asgt/">
+<!ENTITY asgt "https://courses.lis.illinois.edu/mod/assign/view.php?id=">
 <!ENTITY quiz "https://courses.lis.illinois.edu/mod/quiz/view.php?id=">
-<!ENTITY hom1 "asgt1">
-<!ENTITY hom2 "asgt2">
-<!ENTITY hom3 "asgt3">
-<!ENTITY hom4 "asgt4">
-<!ENTITY hom5 "asgt5">
-<!ENTITY hom6 "asgt6">
-<!ENTITY hom7 "asgt7">
-<!ENTITY prop "propsoal">
+<!ENTITY hom1 "228656">
+<!ENTITY hom2 "228657">
+<!ENTITY hom3 "228658">
+<!ENTITY hom4 "228659">
+<!ENTITY hom5 "228660">
+<!ENTITY hom6 "228661">
+<!ENTITY hom7 "228662">
+<!ENTITY prop "228665">
 <!ENTITY midsem "https://illinois.edu/sb/sec/9303956">
 <!ENTITY icaltodo "https://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/syllabus/ro2013asgts.ics">
 <!ENTITY icalevents "https://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/syllabus/ro2013deadlines.ics">
-<!ENTITY nomices "nomices">
-<!ENTITY proj "project">
+<!ENTITY nomices "228664">
+<!ENTITY proj "228663">
 ]>
 <syllabus>
   <head>
