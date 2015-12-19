@@ -15,7 +15,7 @@
 <!ENTITY week2 "January 26">
 <!ENTITY week3 "February 2">
 <!ENTITY as1due "January 26">  <!-- week 2 -->
-<!ENTITY week4 "February 9">
+<!ENTITY week4 "February 9"> 
 <!ENTITY week5 "February 16">
 <!ENTITY as2due "February 9">  <!-- week 4 -->
 <!ENTITY week6 "February 23">
@@ -23,6 +23,7 @@
 <!ENTITY as3due "February 23"> <!-- week 6 -->
 <!ENTITY week8 "March 8">
 <!ENTITY propdue "March 8">    <!-- week 8 -->
+<!ENTITY icesnomdue "March 8"> <!-- week 8 -->
 <!ENTITY week9 "March 15">
 <!ENTITY as4due "March 15">    <!-- week 9 -->
 <!ENTITY week10 "March 22">    <!-- Spring Break -->
@@ -54,6 +55,10 @@
 <!ENTITY icalevents "https://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/syllabus/ro2013deadlines.ics">
 <!ENTITY nomices "228664">
 <!ENTITY proj "228663">
+<!ENTITY timeDue "Due 11:55pm, CST.">
+<!ENTITY rdfhowto "#RDFPrimer">
+<!ENTITY xmlhowto "#XMLPrimer">
+<!ENTITY cfghowto "#CFGPrimer">
 ]>
 <syllabus>
   <head>
@@ -489,12 +494,17 @@ one of your own, include the definitions as a separate attachment.
 </p><newpage>
 	<p>Examples of acceptable notations include (but are not
 limited to) the following:</p>
-	<itemize>
-	  <item>Colloquial XML conforming to a DTD or XML schema</item>
+<![ %LaTeX; [<itemize>
+	  <item>colloquial XML conforming to a DTD or XML schema.</item>
 	  <item>RDF serialized in XML, or N3/Turtle.</item>
-	  <item>Strings conforming to a regular or context-free grammar</item>
-	</itemize>
-      <p>The aims of this assignment are to gain practice in the
+	  <item>strings conforming to a regular or context-free grammar.</item>
+	</itemize>]]>
+<![ %HTML; [<itemize>
+	  <item>colloquial XML conforming to a <weblink url="&xmlhowto;">DTD or XML schema.</weblink></item>
+	  <item><weblink url="&rdfhowto;">RDF</weblink> serialized in XML, or N3/Turtle.</item>
+	  <item>strings conforming to a <weblink url="&cfghowto;">regular or context-free grammar</weblink></item>
+	</itemize>]]>
+	<p>The aims of this assignment are to gain practice in the
 selection and use of precise descriptive notation.</p>
       </sylsubsec>
 <!--    <newpage> -->
@@ -546,7 +556,7 @@ date.</p>
       <required>
        <req>
        <type>Resource domain/genre description</type>
-       <due><weblink url="&asgt;&hom1;">Due 5:00pm, CST</weblink></due>
+       <due><weblink url="&asgt;&hom1;">&timeDue;</weblink></due>
        </req>
       </required>
     <chronpart id="week3"> <!-- week 3 -->
@@ -568,19 +578,17 @@ date.</p>
       <required>
        <req>
        <type>Ten resources for description</type>
-       <due><weblink url="&asgt;&hom2;">Due 5:00pm, CST</weblink></due>
+       <due><weblink url="&asgt;&hom2;">&timeDue;</weblink></due>
        </req>
       </required>
     <chronpart id="week5"> <!-- week 5 -->       
-    <cptitle>Concepts and Ideas</cptitle>
+      <cptitle>Schemas and Syntax</cptitle>
       <dates>&week5;</dates>
-      <topics>Puzzles of thought, proposed solutions</topics>
+      <topics>Validation, XML, RDF</topics>      
       <inclass>
-	    <readings>
-		  <weblink url="#sainsbury_puzzles_2012">Sainsbury and Tye, ch. 1;</weblink> 
-		  <weblink url="#sainsbury_roads_2012">Sainsbury and Tye, ch. 2;</weblink> 
-		  <weblink url="#sainsbury_overview_2012">Sainsbury and Tye, ch. 3;</weblink> 
-		</readings>
+	<readings><weblink url="#kelly_making_2006">Kelly, 2006;</weblink> 
+<weblink url="#RDFPrimer">RDF Primer</weblink></readings>
+    </chronpart>
     <chronpart id="week6"> <!-- week 6 -->
       <cptitle>Bibliographic Entities</cptitle>
       <dates>&week6;</dates> 
@@ -592,7 +600,7 @@ date.</p>
       <required>
        <req>
        <type>Five resource properties</type>
-       <due><weblink url="&asgt;&hom3;">Due 5:00pm, CST</weblink></due>
+       <due><weblink url="&asgt;&hom3;">&timeDue;</weblink></due>
        </req>
       </required>
     <chronpart id="week7"> <!-- week 7 -->
@@ -600,8 +608,7 @@ date.</p>
       <dates>&week7;</dates>
       <topics>URIs, handles, the identity relation</topics>
       <inclass>
-	<readings><weblink url="#jubien_identity_1997">Jubien ch. 4,</weblink> 
-<weblink url="#kahn_framework_2006">Kahn, 2006;</weblink> 
+	<readings><weblink url="#jubien_identity_1997">Jubien ch. 4,</weblink>  
 <weblink url="#thompson_whats_2010">Thompson, 2010</weblink></readings>
     </chronpart>
     <chronpart id="week8"> <!-- week 8 -->
@@ -614,7 +621,11 @@ date.</p>
       <required>
 	<req>
 	  <type>Project Proposal</type>
-	  <due><weblink url="&asgt;&prop;">Due 5:00pm, CST</weblink></due>
+	  <due><weblink url="&asgt;&prop;">&timeDue;</weblink></due>
+	</req>
+	<req>
+	  <type>ICES question nominations</type>
+	  <due><weblink url="&asgt;&nomices;">&timeDue;</weblink></due>
 	</req>
       </required>
     <chronpart id="week9"> <!-- week 9 -->
@@ -623,11 +634,12 @@ date.</p>
       <topics>Descriptive and normative agendas</topics>
      <inclass>
 	<readings><weblink url="#spring_what_2010">Spring, 2010;</weblink> 
-<weblink url="#birnbaum_standardizing_1996">Birnbaum 1996</weblink></readings>
+      <weblink url="#dubin_what_2013">Dubin, et al., 2013.</weblink>
+	</readings>
       <required>
        <req>
        <type>Preliminary resource description in RDF</type>
-       <due><weblink url="&asgt;&hom4;">Due 5:00pm, CDT</weblink></due>
+       <due><weblink url="&asgt;&hom4;">&timeDue;</weblink></due>
        </req>
       </required>
     </chronpart>
@@ -642,27 +654,26 @@ date.</p>
       <inclass>
 	<readings><weblink url="#bach_informal_1989">Bach, 1989 chapters 1&ndash;2</weblink></readings>
       <required>
-	<req>
-	  <type>Nominate ICES Questions</type>
-	  <due><weblink url="&asgt;&nomices;">Due 5:00pm, CDT</weblink></due>
-	</req>
        <req>
        <type>Property codomains and coded symbols</type>
-       <due><weblink url="&asgt;&hom5;">Due 5:00pm, CDT</weblink></due>
+       <due><weblink url="&asgt;&hom5;">&timeDue;</weblink></due>
        </req>
 	<![ %ignore; [	<req>
 	  <type>Mid-semester evaluation</type>
-	  <due><weblink url="&midsem;">Due 5:00pm, CDT.</weblink></due>
+	  <due><weblink url="&midsem;">&timeDue;</weblink></due>
 	</req>]]>
       </required>
     </chronpart>
-   <chronpart id="week12"> <!-- week 12 -->
-      <cptitle>Schemas and Syntax</cptitle>
+   <chronpart id="week12"> <!-- week 12 -->       
+    <cptitle>Concepts and Ideas</cptitle>
       <dates>&week12;</dates>
-      <topics>Validation, XML, RDF</topics>      
+      <topics>Puzzles of thought, proposed solutions</topics>
       <inclass>
-	<readings><weblink url="#kelly_making_2006">Kelly, 2006;</weblink> 
-<weblink url="#RDFPrimer">RDF Primer</weblink></readings>
+	    <readings>
+		  <weblink url="#sainsbury_puzzles_2012">Sainsbury and Tye, ch. 1;</weblink> 
+		  <weblink url="#sainsbury_roads_2012">Sainsbury and Tye, ch. 2;</weblink> 
+		  <weblink url="#sainsbury_overview_2012">Sainsbury and Tye, ch. 3;</weblink> 
+		</readings>
     </chronpart>
     <chronpart id="week13"> <!-- week 13 -->
       <cptitle>Subject Languages</cptitle>
@@ -674,15 +685,15 @@ date.</p>
       <required>
        <req>
        <type>Entity identification and property domains</type>
-       <due><weblink url="&asgt;&hom6;">Due 5:00pm, CDT</weblink></due>
+       <due><weblink url="&asgt;&hom6;">&timeDue;</weblink></due>
        </req>
       </required>
     <chronpart id="week14"> <!-- week 14 -->
-      <cptitle>Topic TBA</cptitle>
+      <cptitle>Assignment domain discussions</cptitle>
       <dates>&week14;</dates>
       <topics></topics>
     <chronpart id="week15"> <!-- week 15 -->
-      <cptitle>Topic TBA</cptitle>
+      <cptitle>Assignment domain discussions</cptitle>
       <dates>&week15;</dates>
     <chronpart id="week16"> <!-- week 16 -->
       <cptitle>Wrap-up and Project Presentations</cptitle>
@@ -690,7 +701,7 @@ date.</p>
         <required>
        <req>
        <type>Description record syntax</type>
-       <due><weblink url="&asgt;&hom7;">Due 5:00pm, CDT</weblink></due>
+       <due><weblink url="&asgt;&hom7;">&timeDue;</weblink></due>
        </req>
 	<req>
 	  <type>Term project</type>
