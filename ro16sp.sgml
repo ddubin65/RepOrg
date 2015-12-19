@@ -56,7 +56,7 @@
 <!ENTITY nomices "228664">
 <!ENTITY proj "228663">
 <!ENTITY timeDue "Due 11:55pm, CST.">
-<!ENTITY rdfhowto "#RDFPrimer">
+<!ENTITY rdfhowto "#world_wide_web_consortium_rdf_2007">
 <!ENTITY xmlhowto "http://www.w3schools.com/xml/">
 <!ENTITY cfghowto "http://marvin.cs.uidaho.edu/Teaching/CS445/grammar.html">
 ]>
@@ -437,7 +437,7 @@ property values</subtl>
 	<p>Create valid RDF descriptions for your resources in terms
 of the properties that you have identified. For this assignment use
 the turtle serialization for RDF (see the 
-<weblink url="#RDFPrimer">RDF Primer</weblink>), and annotate the 
+<weblink url="#rdfhowto">RDF Primer</weblink>), and annotate the 
 descriptions using natural language comments.</p>
       <p>The aim of this assignment is to create a focus for more thorough
 analysis of your properties in later assignments.</p>
@@ -583,7 +583,7 @@ date.</p>
       <topics>Validation, XML, RDF</topics>      
       <inclass>
 	<readings><weblink url="#kelly_making_2006">Kelly, 2006;</weblink> 
-<weblink url="#RDFPrimer">RDF Primer</weblink></readings>
+<weblink url="#rdfhowto">RDF Primer</weblink></readings>
     </chronpart>
     <chronpart id="week6"> <!-- week 6 -->
       <cptitle>Bibliographic Entities</cptitle>
