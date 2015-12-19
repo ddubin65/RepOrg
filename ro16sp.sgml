@@ -39,7 +39,7 @@
 <!ENTITY ProjectDue "May 10">  <!-- week 17 -->
 <!ENTITY week17 "May 10">      <!-- Exam week -->
 <!ENTITY websyl "http://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/syllabus/ro14fa.html"> 
-<!ENTITY sgmlsyl "http://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/syllabus/ro14fa.sgml"> 
+<!ENTITY sgmlsyl "https://raw.githubusercontent.com/ddubin65/RepOrg/master/ro14fa.sgml"> 
 <!ENTITY asgt "https://courses.lis.illinois.edu/mod/assign/view.php?id=">
 <!ENTITY quiz "https://courses.lis.illinois.edu/mod/quiz/view.php?id=">
 <!ENTITY hom1 "228656">
@@ -57,8 +57,8 @@
 <!ENTITY proj "228663">
 <!ENTITY timeDue "Due 11:55pm, CST.">
 <!ENTITY rdfhowto "#RDFPrimer">
-<!ENTITY xmlhowto "#XMLPrimer">
-<!ENTITY cfghowto "#CFGPrimer">
+<!ENTITY xmlhowto "http://www.w3schools.com/xml/">
+<!ENTITY cfghowto "http://marvin.cs.uidaho.edu/Teaching/CS445/grammar.html">
 ]>
 <syllabus>
   <head>
@@ -196,8 +196,9 @@ us to think about them more deeply.</item>
   </sylsec>
   <sylsec id="syllabus">
     <sectl>This Syllabus</sectl> 
-    <p>The official syllabus for this course is the SGML version that
-is linked off the class web page. Expressions of the syllabus in other
+    <p>The official syllabus for this course is the SGML version 
+located at <weblink url="&sgmlsyl;">&sgmlsyl;</weblink>.	
+Expressions of the syllabus in other
 formats are derived from the SGML version. The current SGML version
 should be consulted to resolve any inconsistencies among other
 renditions.</p>
@@ -494,16 +495,11 @@ one of your own, include the definitions as a separate attachment.
 </p><newpage>
 	<p>Examples of acceptable notations include (but are not
 limited to) the following:</p>
-<![ %LaTeX; [<itemize>
-	  <item>colloquial XML conforming to a DTD or XML schema.</item>
-	  <item>RDF serialized in XML, or N3/Turtle.</item>
-	  <item>strings conforming to a regular or context-free grammar.</item>
-	</itemize>]]>
-<![ %HTML; [<itemize>
+    <itemize>
 	  <item>colloquial XML conforming to a <weblink url="&xmlhowto;">DTD or XML schema.</weblink></item>
 	  <item><weblink url="&rdfhowto;">RDF</weblink> serialized in XML, or N3/Turtle.</item>
 	  <item>strings conforming to a <weblink url="&cfghowto;">regular or context-free grammar</weblink></item>
-	</itemize>]]>
+	</itemize>
 	<p>The aims of this assignment are to gain practice in the
 selection and use of precise descriptive notation.</p>
       </sylsubsec>
