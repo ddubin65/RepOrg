@@ -39,7 +39,7 @@
 <!ENTITY ProjectDue "May 10">  <!-- week 17 -->
 <!ENTITY week17 "May 10">      <!-- Exam week -->
 <!ENTITY websyl "http://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/syllabus/ro14fa.html"> 
-<!ENTITY sgmlsyl "https://raw.githubusercontent.com/ddubin65/RepOrg/master/ro14fa.sgml"> 
+<!ENTITY sgmlsyl "https://raw.githubusercontent.com/ddubin65/RepOrg/master/ro16sp.sgml"> 
 <!ENTITY asgt "https://courses.lis.illinois.edu/mod/assign/view.php?id=">
 <!ENTITY quiz "https://courses.lis.illinois.edu/mod/quiz/view.php?id=">
 <!ENTITY hom1 "228656">
