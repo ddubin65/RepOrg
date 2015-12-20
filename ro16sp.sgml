@@ -591,8 +591,8 @@ date.</p>
       <topics>Works, texts, editions, items</topics>
       <inclass>
 	<readings><weblink url="#svenonius_bibliographic_2000">Svenonius, ch 3;</weblink> 
-<weblink url="#international_federation_of_library_associations_functional_1998">IFLA, 1998;</weblink> 
-<weblink url="#smiraglia_nature_2001">Smiraglia, 2001 ch. 1&ndash;2</weblink></readings>
+<weblink url="#international_federation_of_library_associations_functional_1998">IFLA, 1998 ch. 1&ndash;5;</weblink> 
+Smiraglia, 2001 <weblink url="#smiraglia_what_2001">ch. 1</weblink>&ndash;<weblink url="#smiraglia_concept_2001">2</weblink></readings>
       <required>
        <req>
        <type>Five resource properties</type>
