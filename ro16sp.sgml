@@ -57,7 +57,7 @@
 <!ENTITY ices "#uiuc_center_for_teaching_excellence_ices_2001">
 <!ENTITY proj "228663">
 <!ENTITY timeDue "Due 11:55pm, CST.">
-<!ENTITY rdfhowto "#world_wide_web_consortium_rdf_2007">
+<!ENTITY rdfhowto "#manola_rdf_2007">
 <!ENTITY xmlhowto "http://www.w3schools.com/xml/">
 <!ENTITY cfghowto "http://marvin.cs.uidaho.edu/Teaching/CS445/grammar.html">
 ]>
@@ -439,7 +439,7 @@ property values</subtl>
 	<p>Create valid RDF descriptions for your resources in terms
 of the properties that you have identified. For this assignment use
 the turtle serialization for RDF (see the 
-<weblink url="#rdfhowto">RDF Primer</weblink>), and annotate the 
+<weblink url="&rdfhowto;">RDF Primer</weblink>), and annotate the 
 descriptions using natural language comments.</p>
       <p>The aim of this assignment is to create a focus for more thorough
 analysis of your properties in later assignments.</p>
@@ -585,7 +585,7 @@ date.</p>
       <topics>Validation, XML, RDF</topics>      
       <inclass>
 	<readings><weblink url="#kelly_making_2006">Kelly, 2006;</weblink> 
-<weblink url="#rdfhowto">RDF Primer</weblink></readings>
+<weblink url="&rdfhowto;">RDF Primer</weblink></readings>
     </chronpart>
     <chronpart id="week6"> <!-- week 6 -->
       <cptitle>Bibliographic Entities</cptitle>
@@ -668,9 +668,10 @@ Smiraglia, 2001 <weblink url="#smiraglia_what_2001">ch. 1</weblink>&ndash;<webli
       <topics>Puzzles of thought, proposed solutions</topics>
       <inclass>
 	    <readings>
-		  <weblink url="#sainsbury_puzzles_2012">Sainsbury and Tye, ch. 1;</weblink> 
-		  <weblink url="#sainsbury_roads_2012">Sainsbury and Tye, ch. 2;</weblink> 
-		  <weblink url="#sainsbury_overview_2012">Sainsbury and Tye, ch. 3;</weblink> 
+                  Sainsbury and Tye, chapters
+		  <weblink url="#sainsbury_puzzles_2012">1,</weblink> 
+		  <weblink url="#sainsbury_roads_2012">2,</weblink> and 
+		  <weblink url="#sainsbury_overview_2012">3.</weblink> 
 		</readings>
     </chronpart>
     <chronpart id="week13"> <!-- week 13 -->
@@ -679,7 +680,7 @@ Smiraglia, 2001 <weblink url="#smiraglia_what_2001">ch. 1</weblink>&ndash;<webli
       <topics>concepts, syndetic structure</topics>
       <inclass>
 	<readings><weblink url="#iyer_structural_1995">Iyer 1995, ch.5;</weblink> 
-<weblink url="#SKOSPrimer">SKOS Primer</weblink></readings>
+<weblink url="#isaac_skos_2009">SKOS Primer</weblink></readings>
       <required>
        <req>
        <type>Entity identification and property domains</type>
