@@ -39,7 +39,7 @@
 <!ENTITY ProjectDue "May 10">  <!-- week 17 -->
 <!ENTITY week17 "May 10">      <!-- Exam week -->
 <!ENTITY websyl "http://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/syllabus/ro14fa.html"> 
-<!ENTITY sgmlsyl "https://raw.githubusercontent.com/ddubin65/RepOrg/master/ro16sp.sgml"> 
+<!ENTITY sgmlsyl "http://tinyurl.com/LIS590RO"> 
 <!ENTITY asgt "https://courses.lis.illinois.edu/mod/assign/view.php?id=">
 <!ENTITY quiz "https://courses.lis.illinois.edu/mod/quiz/view.php?id=">
 <!ENTITY hom1 "228656">
@@ -54,6 +54,7 @@
 <!ENTITY icaltodo "https://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/syllabus/ro2013asgts.ics">
 <!ENTITY icalevents "https://courseweb.lis.illinois.edu/lis/2016sp/lis590ro/syllabus/ro2013deadlines.ics">
 <!ENTITY nomices "228664">
+<!ENTITY ices "#uiuc_center_for_teaching_excellence_ices_2001">
 <!ENTITY proj "228663">
 <!ENTITY timeDue "Due 11:55pm, CST.">
 <!ENTITY rdfhowto "#world_wide_web_consortium_rdf_2007">
@@ -350,6 +351,7 @@ them. Write a 1&ndash;3 page justification, focusing on the
 characteristics of the domain or genre that you believe will make our
 later exercises instructive for you. These characteristics might
 include:</p>
+ <newpage>
       <itemize>
 	<item>Your personal familiarity with and interest in the domain/genre.</item>
 	<item>Reasons people other than you have in locating and using
@@ -514,7 +516,7 @@ Class participation also includes a required (but not graded)
 nomination of three ICES questions for the final course evaluation.
 The instructor will provide a link to the ICES question catalog.
 <![ %HTML; [(<weblink url="&asgt;&nomices;">upload link</weblink>) 
-(<weblink url="#ICES">ICES Catalog</weblink>)]]>
+(<weblink url="&ices;">ICES Catalog</weblink>)]]>
 </p>
     <sylsubsec id="project">
       <subtl>Term Project</subtl> <p>Students enrolled for four units
