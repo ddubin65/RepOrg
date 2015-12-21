@@ -6,10 +6,17 @@ date: December 20, 2015
 
 # Assignment 1: resource domain/genre description {#Asgt1 .task}
 
+## Rationale {.context}
+The aim of this assignment is to help you relate the
+topics in our readings and discussions to concrete examples that you
+can explore in the homework assignments.
+
+## Before you begin {.prereq}
 In the next assignment, you will select ten (cultural or natural) resources of
-your choice for analysis and description. Before doing so, give some
+your choice for analysis and description. 
+Before doing so, give some
 critical thought to the domain and/or genre from which you will select
-them. Write a 1–3 page justification, focusing on the
+them. Consider
 characteristics of the domain or genre that you believe will make our
 later exercises instructive for you. These characteristics might
 include:
@@ -38,13 +45,12 @@ promising domains include:
 - Young adult novels
 - Mollusc shells
 
-The aim of this assignment is to help you relate the
-topics in our readings and discussions to concrete examples that you
-can explore in the homework assignments.
-
-
-## Rationale {.context}
 ## Tasks {.steps}
+
+1. Write a 1–3 page justification, focusing on the
+   characteristics of the domain or genre that you believe will make our
+   later exercises instructive for you.
+
 ## Deliverable {.result}
-## Submitting {.postreq}
+## Outcomes for this assignment {.postreq}
 ## Section {.section}
