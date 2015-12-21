@@ -560,7 +560,6 @@ date.</p>
     <chronpart id="week3"> <!-- week 3 -->
       <cptitle>Resources: social objects and social facts</cptitle>
       <dates>&week3;</dates>
-      <topics></topics>
       <inclass>
 	<readings><weblink url="#smith_how_2012">Smith, 2012;</weblink> 
 <weblink url="#ferraris_social_2011">Ferraris, 2011</weblink></readings>
@@ -644,7 +643,6 @@ Smiraglia, 2001 <weblink url="#smiraglia_what_2001">ch. 1</weblink>&ndash;<webli
 	<chronpart id="week10"> <!-- week 10 -->
       <cptitle>No class meeting: Spring Break</cptitle>
       <dates>&week10;</dates>
-      <topics></topics>
     <chronpart id="week11"> <!-- week 11 -->
       <cptitle>Artificial Languages</cptitle>
       <dates>&week11;</dates>
@@ -690,7 +688,6 @@ Smiraglia, 2001 <weblink url="#smiraglia_what_2001">ch. 1</weblink>&ndash;<webli
     <chronpart id="week14"> <!-- week 14 -->
       <cptitle>Assignment domain discussions</cptitle>
       <dates>&week14;</dates>
-      <topics></topics>
     <chronpart id="week15"> <!-- week 15 -->
       <cptitle>Assignment domain discussions</cptitle>
       <dates>&week15;</dates>
